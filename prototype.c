@@ -5,7 +5,7 @@ void hello(void); // giving hit to the compiler that hello program is available 
 
 int main(void)
 {
-    for (int i = 0;i = 3; i++ )
+    for (int i = 0;i < 3; i++ )
     hello();
 
 }
