@@ -1,7 +1,9 @@
 #ifndef INPUT_H
 #define INPUT_H
 
-char *get_string(const char *prompt);
+typedef char *string;
+
+string get_string(const char *prompt);
 char get_char(const char *prompt);
 double get_double(const char *prompt);
 float get_float(const char *prompt);

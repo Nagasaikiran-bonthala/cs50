@@ -3,7 +3,7 @@
 #include <string.h>
 #include "input.h"
 
-char *get_string(const char *prompt)
+string get_string(const char *prompt)
 {
     printf("%s", prompt);
 
